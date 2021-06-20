@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"
+        integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+ 
+    <title>FACE MASK WEARING PREDICTION</title>
+ 
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+ 
+        .border img {
+            border-radius: 15px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+ 
+<body>
+ 
+    <div>
+        <img src="static\images\open1.jpg" class="w3-border w3-padding" alt="Kalam Sardar AI PVT LTD"
+            style="width:100%">
+    </div>
+ 
+    <div class="container my-2">
+        <div class="row mb-5">
+ 
+            <div class="col-sm" style="margin-bottom: 23px;">
+                <span class="border border-primary">
+                    <img src="{{ user_image }}" alt="User Image" class="img-thumbnail">
+                     
+                </span>
+            </div>
+ 
+            <div class="col-sm">
+ 
+                <div>
+                    <h1 style="padding: 15px; background-color: rgb(153, 156, 150); color: white;"
+                        class="text-center mb-5 content-h1 rounded">
+                        {{pred_output}} </h1>
+                </div>
+                <div class="details">
+ 
+                    <h5>
+ 
+                        Awesome,The Person is Wearing Mask.The Person is responsive for building a good Social and Health awerness.So,We will Overcome against the COVID-19 Pandemic</br></br>
+                        দুর্দান্ত, ব্যক্তিটি মাস্ক পরছে ,ব্যক্তি একটি ভাল সামাজিক এবং স্বাস্থ্য সচেতনতা তৈরির জন্য প্রতিক্রিয়াশীল  সুতরাং, আমরা কভিড -১৯ মহামারীর বিরুদ্ধে পরাস্ত করব</br></br>
+                        बहुत बढ़िया, व्यक्ति ने मुखौटा पहन रखा है। व्यक्ति एक अच्छी सामाजिक और स्वास्थ्य जागरूकता के निर्माण के लिए उत्तरदायी है। इसलिए, हम COVID-19 महामारी के खिलाफ विजय प्राप्त करेंगे </br></br>
+                        
+                    </h5>
+                </div>
+            </div>
+        </div>
+ 
+    </div>
+</body>
+ 
+</html>
